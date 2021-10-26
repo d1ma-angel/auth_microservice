@@ -1,0 +1,4 @@
+db:
+  database: auth_microservice_development
+secrets:
+  jwt_secret: H8D25OKiM7r7q1RxSWDcgaw3eDF8Hf87cRQ2D1pkI0E=

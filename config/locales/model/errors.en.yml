@@ -1,0 +1,14 @@
+en:
+  model:
+    errors:
+      user:
+        name:
+          blank: 'Name is empty'
+          invalid: 'Name can be alphanumeric and underscore only'
+        email:
+          blank: 'Email is empty'
+        password:
+          blank: 'Password is empty'
+      user_session:
+        uuid:
+          blank: 'Uuid is empty'

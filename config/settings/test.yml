@@ -1,0 +1,5 @@
+db:
+  database: auth_microservice_test
+  max_connections: 4
+secrets:
+  jwt_secret: QweKDepCfIuJogi4xhwJcEdpkRHWr3LDA/xmhg5voVE=
