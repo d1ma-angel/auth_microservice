@@ -16,7 +16,7 @@ gem 'sequel'
 gem 'i18n'
 gem 'config'
 gem 'jwt'
-gem 'bcrypt'
+gem 'sequel_secure_password'
 
 gem 'dry-initializer'
 gem 'dry-validation'

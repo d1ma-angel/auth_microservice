@@ -3,5 +3,6 @@ FactoryBot.define do
     name { generate(:name) }
     email { generate(:email) }
     password { 'givemeatoken' }
+    password_confirmation { 'givemeatoken' }
   end
 end

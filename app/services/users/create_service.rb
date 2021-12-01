@@ -12,7 +12,8 @@ module Users
       @user = ::User.new(
         name: @name,
         email: @email,
-        password: @password
+        password: @password,
+        password_confirmation: @password
       )
 
       if @user.valid?
