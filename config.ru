@@ -1,8 +1,9 @@
 require_relative 'config/environment'
 
-map '/auth' do
+map '/' do
   run Rack::Cascade.new(
     [
+      AuthRoutes,
       UserRoutes,
       UserSessionRoutes
     ]

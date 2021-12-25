@@ -1,5 +1,6 @@
 class Application < Sinatra::Base
   helpers Validations
+  use Rack::JSONBodyParser
 
   configure do
     register Sinatra::Namespace
